@@ -1,0 +1,9 @@
+body {
+    background: rgb(235,203,216);
+    background: linear-gradient(90deg, rgba(235,203,216,1) 0%, rgba(170,202,241,1) 100%);
+}
+
+ul li:hover {
+    -webkit-transform: scale(1.2);
+    background-color: transparent;
+}
