@@ -3,7 +3,23 @@ body {
     background: linear-gradient(90deg, rgba(235,203,216,1) 0%, rgba(170,202,241,1) 100%);
 }
 
-ul li:hover {
+nav ul li:hover {
     -webkit-transform: scale(1.2);
-    background-color: transparent;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 50%;
+    height: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: right;
+}
+
+#name {
+    float: left;
+    font-size: 700%;
+    top: 50%;
+    left: 50%;
+    padding: 10%;
 }
